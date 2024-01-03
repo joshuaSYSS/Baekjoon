@@ -618,7 +618,7 @@ ull fastPow(ull b, ull power) {
 }
 #pragma endregion
 int main(void) {
-    setup;//cerr << leetcode() << '\n';
+    setup;
     ll n = get(), n2 = get();
     out(n + n2);
     stop;
