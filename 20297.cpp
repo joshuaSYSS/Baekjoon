@@ -288,7 +288,9 @@ ScanfNowTryToBeatMyCompileSpeed
   Why does this work?
   Notice as we go up the list of ancestors, if a value is found, then it means another node with the same value is
   under the same centroid (the same ancestor) (Also notice that the centroid of the entire tree store all value).
-  
+
+  But why is this the minimum value?
+  Because if we go up to the next ancestor, it means the other point is on the other n / 2 subtree. The distance must be larger.
   */
 ll n = get();
 adj.resize(n);
